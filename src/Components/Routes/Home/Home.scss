@@ -1,0 +1,45 @@
+.spanColor:hover {
+  color: rgb(174, 227, 114);
+  font-size: 10.6vw;
+  padding: 0px 10px 0px 10px;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+.mainClass{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.colorful-letter {
+    font-size: 10vw;
+  }
+
+  @keyframes color_change {
+    from { color: rgb(46, 132, 202); }
+    to { color: rgb(255, 251, 251); }
+  }
+
+  .title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dev {
+    height: 30rem;
+    font-size: 4rem;
+    color: rgb(30, 27, 27);
+    animation: dev_color 3s infinite;
+    margin-top: 50px;
+  }
+
+  @keyframes dev_color {
+    to { color: rgb(24, 24, 24); }
+    from { color: rgb(122, 120, 122); }
+  }

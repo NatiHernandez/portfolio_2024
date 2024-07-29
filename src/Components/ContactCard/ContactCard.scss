@@ -1,0 +1,21 @@
+.contactClass {
+    border: 2px rgb(168, 218, 223) solid;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+
+    &:hover{
+        border: 5px rgb(168, 218, 223) solid;
+        color: rgb(63, 249, 224);
+        cursor: grab
+    }
+    
+    svg{
+        font-size: 6rem;
+    }
+}
+
